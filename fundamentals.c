@@ -93,7 +93,32 @@ void fundamentals (void) {
     } while (strcmp(buffer, "q") != 0);  // Loop continuation condition
 
     // Printing the end message for the Measuring Strings Demo
-    printf("*** End of Measuring Strings Demo ***\n");
+    printf("*** End of Measuring Strings Demo ***\n\n");
+
+    // Version 3
+
+    printf("*** Start of Copying Strings Demo ***\n"); // Printing the start of the copying strings demo.
+
+    char destination[BUFFER_SIZE]; // Declaring the destination string buffer.
+    char source[BUFFER_SIZE]; // Declaring the source string buffer.
+
+    do {
+        destination[0] = '\0'; // Setting the first character of the destination string to null, resetting it to empty.
+        printf("Destination string is reset to empty\n"); // Printing a message indicating that the destination string is reset to empty.
+        printf("Type the source string (q - to quit):\n"); // Prompting the user to type the source string.
+
+        fgets(source, BUFFER_SIZE, stdin); // Getting input from the user and storing it in the source string.
+        source[strlen(source) - 1] = '\0'; // Removing the newline character at the end of the source string.
+
+        if (strcmp(source, "q") != 0) { // Checking if the user entered "q" to quit.
+            strcpy(destination, source); // Copying the contents of the source string to the destination string.
+            printf("New destination string is '%s'\n", destination); // Printing the new destination string.
+        }
+
+    } while (strcmp(source, "q") != 0); // Continuing the loop until the user enters "q" to quit.
+
+    printf("*** End of Copying Strings Demo ***\n"); // Printing the end of the copying strings demo.
+
 
 
 

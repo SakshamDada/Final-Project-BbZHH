@@ -50,3 +50,25 @@ Type a string (q - to quit):
 q
 *** End of Measuring Strings Demo ***
 
+
+*** Start of Copying Strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
+IWanrToByACar
+New destination string is 'IWanrToByACar'
+Destination string is reset to empty
+Type the source string (q - to quit):
+I Love Myself    
+New destination string is 'I Love Myself'
+Destination string is reset to empty
+Type the source string (q - to quit):
+everyone_has*flaws
+New destination string is 'everyone_has*flaws'
+Destination string is reset to empty
+Type the source string (q - to quit):
+muscletech___helps__us__to__build__mass
+New destination string is 'muscletech___helps__us__to__build__mass'
+Destination string is reset to empty
+Type the source string (q - to quit):
+q
+*** End of Copying Strings Demo ***

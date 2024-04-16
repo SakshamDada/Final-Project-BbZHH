@@ -24,4 +24,37 @@ Type a few phrases separated by comma (q - to quit):
 Phrase #1 is '012'
 Type a few phrases separated by comma (q - to quit): 
 q
-*** End of Tokenizing phrases Demo ***
+*** End of Tokenizing phrases Demo ***
+
+*** Start of Tokenizing Sentences Demo ***
+Type a few sentences separated by dot (q - to quit):
+hi.there
+Sentence #1 is 'hi'
+Sentence #2 is 'there'
+Type a few sentences separated by dot (q - to quit):
+hello.there.iam.noone
+Sentence #1 is 'hello'
+Sentence #2 is 'there'
+Sentence #3 is 'iam'
+Sentence #4 is 'noone'
+Type a few sentences separated by dot (q - to quit):
+i.want.to.buy.a.car
+Sentence #1 is 'i'
+Sentence #2 is 'want'
+Sentence #3 is 'to'
+Sentence #4 is 'buy'
+Sentence #5 is 'a'
+Sentence #6 is 'car'
+Type a few sentences separated by dot (q - to quit):
+LIFE...IS...BEAUTIFUL
+Sentence #1 is 'LIFE'
+Sentence #2 is 'IS'
+Sentence #3 is 'BEAUTIFUL'
+Type a few sentences separated by dot (q - to quit):
+1..2.3
+Sentence #1 is '1'
+Sentence #2 is '2'
+Sentence #3 is '3'
+Type a few sentences separated by dot (q - to quit):
+q
+*** End of Tokenizing Sentences Demo ***
